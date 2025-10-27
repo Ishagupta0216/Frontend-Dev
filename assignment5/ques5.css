@@ -1,0 +1,41 @@
+.pricing-table {
+  display: flex;
+  gap: 1em;
+  padding: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f4f4f4;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+  background-color: #e0f7fa;
+}
+
+.popular {
+  border: 2px solid #00796b;
+}
+
+.price {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #00796b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

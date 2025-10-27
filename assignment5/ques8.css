@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+}
+
+aside {
+  background: #f4f4f4;
+  width: 200px;
+  padding: 1em;
+}
+
+main {
+  flex: 1;
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 1em;
+  flex: 1 1 45%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+  }
+}
