@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.effects-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.effect-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.effect-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.effect-btn:active {
+  background-color: #004080;
+  transform: scale(0.98);
+}
+
+.effect-btn:focus {
+  outline: 2px solid #333;
+}
