@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #222;
+  color: white;
+}
+
+main {
+  padding: 2em;
+}
+
+article {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+}
+
+mark {
+  background-color: #FFEB3B;
+  color: black;
+}
+
+strong {
+  color: #007BFF;
+}
+
+em {
+  color: #E91E63;
+}
+
+article p::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  color: #FF5722;
+}
+
+article p::first-line {
+  font-style: italic;
+}

@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #222;
+  color: white;
+}
+
+main {
+  padding: 2em;
+}
+
+.demo-container {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.box-model {
+  width: 200px;
+  padding: 20px;
+  border: 10px solid #007BFF;
+  margin: 20px;
+  background-color: #FFC107;
+  outline: 2px dashed #333;
+  text-align: center;
+}
+
+.default-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
